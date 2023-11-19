@@ -116,11 +116,35 @@ void SimonkInit(){
 	TIMER_Cmd (MDR_TIMER1, ENABLE);
 	TIMER_Cmd (MDR_TIMER3, ENABLE);
 	
-	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL1, 2000);
-	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL2, 2000);
-	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL3, 2000);
-	TIMER_SetChnCompare (MDR_TIMER3, TIMER_CHANNEL3, 2000);
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL1, 0);
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL2, 0);
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL3, 0);
+	TIMER_SetChnCompare (MDR_TIMER3, TIMER_CHANNEL3, 0);
 	
-	
+}
+
+
+/**
+	* @brief  Калибрует Simonk ESC для работы в диапозоне от 1 до 2 мс
+  * @retval None
+  */
+void SimonkCalibrate(){
+	 
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL1, 500);
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL2, 500);
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL3, 500);
+	TIMER_SetChnCompare (MDR_TIMER3, TIMER_CHANNEL3, 500);
+	SysTick_IntegerDelay(4);
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL1, 250);
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL2, 250);
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL3, 250);
+	TIMER_SetChnCompare (MDR_TIMER3, TIMER_CHANNEL3, 250);
+	SysTick_IntegerDelay(1);
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL1, 0);
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL2, 0);
+	TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL3, 0);
+	TIMER_SetChnCompare (MDR_TIMER3, TIMER_CHANNEL3, 0);
+
+
 }
 

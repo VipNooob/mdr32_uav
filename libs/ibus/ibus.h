@@ -27,5 +27,7 @@ typedef struct {
 
 
 void iBus_handler(iBusInfo* current_iBus, char received_byte);
+int16_t read_iBusChannel(iBusInfo* current_iBus, int8_t channel_index);
+
 
 #endif

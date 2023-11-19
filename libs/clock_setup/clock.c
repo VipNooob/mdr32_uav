@@ -2,6 +2,7 @@
 
 
 
+
 /**
 	* @brief  Настраивает внутренний стабилизатор в зависимости от частоты ядра
   * @param  extraI - @ref SelectRI - указывает значение частоты ядра
@@ -59,7 +60,27 @@ void ClockInit(void){
 }
 
 
-
+/**
+	* @brief  Создает задержку в секундах
+	* @param  seconds - количество секунд
+  * @retval None
+  */
+void SysTick_IntegerDelay(int8_t seconds){
+	
+	SysTick->LOAD = 8000000 - 1; // 80Mhz - частота тактирования, следовательно таймер отсчитает 10 раз по 8_000_000
+	SysTick->VAL  = 0UL;
+	SysTick->CTRL |= SysTick_CTRL_CLKSOURCE_Msk;
+	SysTick->CTRL |= SysTick_CTRL_ENABLE_Msk;
+	
+	// в данном случае 1 секунда равна 10 проходам таймера
+	for(int i = 0; i < seconds * 10; i++)
+	{
+		while(!(SysTick->CTRL & SysTick_CTRL_COUNTFLAG_Msk)){};
+	}
+	
+	SysTick->CTRL = SysTick_CTRL_ENABLE_Pos;
+	
+}
 
 
 

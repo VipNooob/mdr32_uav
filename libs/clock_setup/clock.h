@@ -3,6 +3,8 @@
 #include "MDR32FxQI_rst_clk.h"          // Milandr::Drivers:RST_CLK
 #include "MDR32FxQI_eeprom.h"           // Milandr::Drivers:EEPROM
 #include <MDR32FxQI_config.h>
+#include "MDR32FxQI_utils.h"            // Milandr::Drivers:UTILS
+
 
 // Значения аргумента функции настройки внутреннего стабилизатора напряжения
 typedef enum {
@@ -13,5 +15,5 @@ typedef enum {
 
 void SetSelectRI(SelectRI extraI);
 void ClockInit(void);
-
+void SysTick_IntegerDelay(int8_t seconds);
 #endif

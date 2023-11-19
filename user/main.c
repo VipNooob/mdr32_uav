@@ -11,7 +11,7 @@
 
 
 // Структура для хранения данных с iBus
-volatile iBusInfo DataMotors;
+volatile iBusInfo iBusMotors;
 
 // Обработчик прерывания UART1
 void UART1_IRQHandler(void)
@@ -27,7 +27,7 @@ void UART1_IRQHandler(void)
 			received_byte = UART_ReceiveData (MDR_UART1); 
 			received_byte = (uint8_t)received_byte;
 			
-			iBus_handler(&DataMotors, received_byte);
+			iBus_handler(&iBusMotors, received_byte);
 		}
 		
 		if (UART_GetITStatusMasked(MDR_UART1, UART_IT_TX) == SET)
@@ -48,10 +48,12 @@ int main (void) {
 	DebugUARTInit();
 	iBusUARTInit();
 	SimonkInit();
-		
+	SimonkCalibrate();
+	
 	while (1) 
 	{
-		printf("%d, %d, %d, %d\n", DataMotors.channels[1], DataMotors.channels[2], DataMotors.channels[3], DataMotors.channels[4]);
+		printf("%d, %d, %d, %d\n", read_iBusChannel(&iBusMotors, 1), read_iBusChannel(&iBusMotors, 2), read_iBusChannel(&iBusMotors, 3), read_iBusChannel(&iBusMotors, 4));
+		SysTick_IntegerDelay(2);
 	}
 }
 

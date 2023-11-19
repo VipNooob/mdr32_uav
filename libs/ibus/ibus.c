@@ -72,3 +72,13 @@ void iBus_handler(iBusInfo* current_iBus, char received_byte)
         break;
     }
 }
+
+/**
+	* @brief  Возвращает значение указанного iBus канала
+  * @param  current_iBus - @ref iBusInfo* - указывает структуру для хранения iBus данных
+	* @param  channel_index - индекс канала
+  * @retval Значение канала
+  */
+int16_t read_iBusChannel(iBusInfo* current_iBus, int8_t channel_index){
+	return current_iBus->channels[channel_index];
+}
