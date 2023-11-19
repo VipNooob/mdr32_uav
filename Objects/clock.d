@@ -8,4 +8,5 @@
   C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\CMSIS\MDR32FxQI\CoreSupport\CM3\core_cmInstr.h \
   C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\CMSIS\MDR32FxQI\CoreSupport\CM3\core_cmFunc.h \
   RTE\Device\MDR32F9Q2I\system_MDR32F9Q2I.h \
-  C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_eeprom.h
+  C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_eeprom.h \
+  C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_utils.h

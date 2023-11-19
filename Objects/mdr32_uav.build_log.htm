@@ -22,27 +22,27 @@ Dialog DLL:      TCM.DLL V1.56.4.0
  
 <h2>Project:</h2>
 C:\keil_projects\mdr32_uav\mdr32_uav.uvprojx
-Project File Date:  11/13/2023
+Project File Date:  11/19/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Rebuild target 'Target 1'
-compiling esc_control.c...
-compiling uart.c...
 compiling ibus.c...
 compiling clock.c...
+compiling esc_control.c...
+compiling uart.c...
 compiling main.c...
-assembling startup_MDR32F9Q2I.S...
 compiling system_MDR32F9Q2I.c...
-compiling MDR32FxQI_eeprom.c...
 compiling MDR32FxQI_port.c...
+compiling MDR32FxQI_eeprom.c...
 compiling MDR32FxQI_rst_clk.c...
 assembling MDR32FxQI_asm.S...
-compiling MDR32FxQI_timer.c...
-compiling MDR32FxQI_uart.c...
+assembling startup_MDR32F9Q2I.S...
 compiling MDR32FxQI_utils.c...
+compiling MDR32FxQI_uart.c...
+compiling MDR32FxQI_timer.c...
 linking...
-Program Size: Code=12216 RO-data=792 RW-data=4 ZI-data=1784  
+Program Size: Code=12584 RO-data=792 RW-data=4 ZI-data=1784  
 FromELF: creating hex file...
 ".\Objects\mdr32_uav.axf" - 0 Error(s), 0 Warning(s).
 
@@ -70,39 +70,39 @@ Package Vendor: Milandr
 <h2>Collection of Component Files used:</h2>
 
    * Component: Milandr::Device:Startup:2.1.0i
+      Include file:  Libraries/SPL/MDR32FxQI/inc/IRQ_Handler_Template/MDR32F9Q2I_IT.h
+      Include file:  Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3/core_cm3.h
+      Include file:  Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/startup/system_MDR32F9Q2I.h
       Source file:   Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/startup/arm/startup_MDR32F9Q2I.S
       Source file:   Libraries/SPL/MDR32FxQI/src/IRQ_Handler_Template/MDR32F9Q2I_IT.c
+      Include file:  Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc/MDR32F9Q2I.h
       Include file:  Libraries/SPL/MDR32FxQI/MDR32FxQI_config.h
       Source file:   Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/startup/system_MDR32F9Q2I.c
-      Include file:  Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3/core_cm3.h
-      Include file:  Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc/MDR32F9Q2I.h
-      Include file:  Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/startup/system_MDR32F9Q2I.h
-      Include file:  Libraries/SPL/MDR32FxQI/inc/IRQ_Handler_Template/MDR32F9Q2I_IT.h
 
    * Component: Milandr::Drivers:EEPROM:2.1.0i
+      Source file:   Libraries/SPL/MDR32FxQI/src/MDR32FxQI_asm.S
       Include file:  Libraries/SPL/MDR32FxQI/inc/MDR32FxQI_eeprom.h
       Source file:   Libraries/SPL/MDR32FxQI/src/MDR32FxQI_eeprom.c
-      Source file:   Libraries/SPL/MDR32FxQI/src/MDR32FxQI_asm.S
 
    * Component: Milandr::Drivers:PORT:2.0.3i
-      Include file:  Libraries/SPL/MDR32FxQI/inc/MDR32FxQI_port.h
       Source file:   Libraries/SPL/MDR32FxQI/src/MDR32FxQI_port.c
+      Include file:  Libraries/SPL/MDR32FxQI/inc/MDR32FxQI_port.h
 
    * Component: Milandr::Drivers:RST_CLK:2.0.3i
       Include file:  Libraries/SPL/MDR32FxQI/inc/MDR32FxQI_rst_clk.h
       Source file:   Libraries/SPL/MDR32FxQI/src/MDR32FxQI_rst_clk.c
 
    * Component: Milandr::Drivers:TIMER:2.1.0i
-      Include file:  Libraries/SPL/MDR32FxQI/inc/MDR32FxQI_timer.h
       Source file:   Libraries/SPL/MDR32FxQI/src/MDR32FxQI_timer.c
+      Include file:  Libraries/SPL/MDR32FxQI/inc/MDR32FxQI_timer.h
 
    * Component: Milandr::Drivers:UART:2.1.0i
       Source file:   Libraries/SPL/MDR32FxQI/src/MDR32FxQI_uart.c
       Include file:  Libraries/SPL/MDR32FxQI/inc/MDR32FxQI_uart.h
 
    * Component: Milandr::Drivers:UTILS:1.0.0i
-      Include file:  Libraries/SPL/MDR32FxQI/inc/MDR32FxQI_utils.h
       Source file:   Libraries/SPL/MDR32FxQI/src/MDR32FxQI_utils.c
+      Include file:  Libraries/SPL/MDR32FxQI/inc/MDR32FxQI_utils.h
       Source file:   Libraries/SPL/MDR32FxQI/src/MDR32FxQI_asm.S
 Build Time Elapsed:  00:00:01
 </pre>

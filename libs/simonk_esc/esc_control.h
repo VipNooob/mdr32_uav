@@ -8,5 +8,5 @@
 
 
 void SimonkInit();
-
+void SimonkCalibrate();
 #endif

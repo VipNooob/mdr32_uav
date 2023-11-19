@@ -1,6 +1,6 @@
 Dependencies for Project 'mdr32_uav', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 6190000::V6.19::ARMCLANG
-F (.\user\main.c)(0x6551BC3D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./libs/simonk_esc -I ./libs/clock_setup -I ./libs/uart_setup -I ./libs/ibus-I./RTE/Device/MDR32F9Q2I-I./RTE/_Target_1-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/SPL/MDR32FxQI/inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/main.o -MD)
+F (.\user\main.c)(0x6559F8E7)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./libs/simonk_esc -I ./libs/clock_setup -I ./libs/uart_setup -I ./libs/ibus-I./RTE/Device/MDR32F9Q2I-I./RTE/_Target_1-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/SPL/MDR32FxQI/inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/main.o -MD)
 I (RTE\Device\MDR32F9Q2I\MDR32FxQI_config.h)(0x6551BB70)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63888F58)
 I (RTE\_Target_1\RTE_Components.h)(0x6551B9DD)
@@ -10,19 +10,19 @@ I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\CMSIS\
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\CMSIS\MDR32FxQI\CoreSupport\CM3\core_cmFunc.h)(0x64A7E1D6)
 I (RTE\Device\MDR32F9Q2I\system_MDR32F9Q2I.h)(0x64A7E1D6)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_utils.h)(0x64A7E1D6)
-I (libs\clock_setup\clock.h)(0x6551A237)
+I (libs\clock_setup\clock.h)(0x6559F85F)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_rst_clk.h)(0x64A7E1D6)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_eeprom.h)(0x64A7E1D6)
 I (libs\uart_setup\uart.h)(0x65505F8A)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_uart.h)(0x64A7E1D6)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_port.h)(0x64A7E1D6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63888F58)
-I (libs\ibus\ibus.h)(0x65505380)
+I (libs\ibus\ibus.h)(0x6559F890)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63888F58)
-I (libs\simonk_esc\esc_control.h)(0x65506FD2)
+I (libs\simonk_esc\esc_control.h)(0x6559F9CB)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_timer.h)(0x64A7E1D6)
-F (.\libs\simonk_esc\esc_control.c)(0x65509B11)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./libs/simonk_esc -I ./libs/clock_setup -I ./libs/uart_setup -I ./libs/ibus-I./RTE/Device/MDR32F9Q2I-I./RTE/_Target_1-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/SPL/MDR32FxQI/inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/esc_control.o -MD)
-I (libs\simonk_esc\esc_control.h)(0x65506FD2)
+F (.\libs\simonk_esc\esc_control.c)(0x6559F86A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./libs/simonk_esc -I ./libs/clock_setup -I ./libs/uart_setup -I ./libs/ibus-I./RTE/Device/MDR32F9Q2I-I./RTE/_Target_1-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/SPL/MDR32FxQI/inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/esc_control.o -MD)
+I (libs\simonk_esc\esc_control.h)(0x6559F9CB)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_port.h)(0x64A7E1D6)
 I (RTE\Device\MDR32F9Q2I\MDR32FxQI_config.h)(0x6551BB70)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63888F58)
@@ -34,8 +34,11 @@ I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\CMSIS\
 I (RTE\Device\MDR32F9Q2I\system_MDR32F9Q2I.h)(0x64A7E1D6)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_rst_clk.h)(0x64A7E1D6)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_timer.h)(0x64A7E1D6)
-F (.\libs\ibus\ibus.c)(0x6550579C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./libs/simonk_esc -I ./libs/clock_setup -I ./libs/uart_setup -I ./libs/ibus-I./RTE/Device/MDR32F9Q2I-I./RTE/_Target_1-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/SPL/MDR32FxQI/inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/ibus.o -MD)
-I (libs\ibus\ibus.h)(0x65505380)
+I (libs\clock_setup\clock.h)(0x6559F85F)
+I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_eeprom.h)(0x64A7E1D6)
+I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_utils.h)(0x64A7E1D6)
+F (.\libs\ibus\ibus.c)(0x6559F887)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./libs/simonk_esc -I ./libs/clock_setup -I ./libs/uart_setup -I ./libs/ibus-I./RTE/Device/MDR32F9Q2I-I./RTE/_Target_1-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/SPL/MDR32FxQI/inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/ibus.o -MD)
+I (libs\ibus\ibus.h)(0x6559F890)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63888F58)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63888F58)
 F (.\libs\uart_setup\uart.c)(0x6551B2F0)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./libs/simonk_esc -I ./libs/clock_setup -I ./libs/uart_setup -I ./libs/ibus-I./RTE/Device/MDR32F9Q2I-I./RTE/_Target_1-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/SPL/MDR32FxQI/inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/uart.o -MD)
@@ -52,8 +55,8 @@ I (RTE\Device\MDR32F9Q2I\system_MDR32F9Q2I.h)(0x64A7E1D6)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_port.h)(0x64A7E1D6)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_rst_clk.h)(0x64A7E1D6)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x63888F58)
-F (.\libs\clock_setup\clock.c)(0x6551A21B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./libs/simonk_esc -I ./libs/clock_setup -I ./libs/uart_setup -I ./libs/ibus-I./RTE/Device/MDR32F9Q2I-I./RTE/_Target_1-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/SPL/MDR32FxQI/inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/clock.o -MD)
-I (libs\clock_setup\clock.h)(0x6551A237)
+F (.\libs\clock_setup\clock.c)(0x6559F84C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I ./libs/simonk_esc -I ./libs/clock_setup -I ./libs/uart_setup -I ./libs/ibus-I./RTE/Device/MDR32F9Q2I-I./RTE/_Target_1-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/SPL/MDR32FxQI/inc-D__UVISION_VERSION="538" -D_RTE_ -D_RTE_-o ./objects/clock.o -MD)
+I (libs\clock_setup\clock.h)(0x6559F85F)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_rst_clk.h)(0x64A7E1D6)
 I (RTE\Device\MDR32F9Q2I\MDR32FxQI_config.h)(0x6551BB70)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63888F58)
@@ -64,6 +67,7 @@ I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\CMSIS\
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\CMSIS\MDR32FxQI\CoreSupport\CM3\core_cmFunc.h)(0x64A7E1D6)
 I (RTE\Device\MDR32F9Q2I\system_MDR32F9Q2I.h)(0x64A7E1D6)
 I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_eeprom.h)(0x64A7E1D6)
+I (C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_utils.h)(0x64A7E1D6)
 F (RTE/Device/MDR32F9Q2I/MDR32F9Q2I.sct)(0x64A7E1D6)()
 F (RTE/Device/MDR32F9Q2I/MDR32FxQI_config.h)(0x6551BB70)()
 F (RTE/Device/MDR32F9Q2I/startup_MDR32F9Q2I.S)(0x64A7E170)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -D__EVAL-I./RTE/Device/MDR32F9Q2I-I./RTE/_Target_1-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/CoreSupport/CM3-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/CMSIS/MDR32FxQI/DeviceSupport/MDR32F9Q2I/inc-IC:/Users/voron/AppData/Local/Arm/Packs/Milandr/MDR32FxQI/1.1/Libraries/SPL/MDR32FxQI/inc-D__UVISION_VERSION=538 -D_RTE_ -D_RTE_-o ./objects/startup_mdr32f9q2i.o)
