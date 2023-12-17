@@ -53,7 +53,13 @@ int main (void) {
 	while (1) 
 	{
 		printf("%d, %d, %d, %d\n", read_iBusChannel(&iBusMotors, 1), read_iBusChannel(&iBusMotors, 2), read_iBusChannel(&iBusMotors, 3), read_iBusChannel(&iBusMotors, 4));
-		SysTick_IntegerDelay(2);
+		
+		// Настройка ШИМа первого ESC (PA1)
+		// read_iBusChannel(&iBusMotors, 1) - 1000) - здесь следует установить номер необходимого стика, его можно определить из монитора порта
+		int16_t ch_value = 250 + (read_iBusChannel(&iBusMotors, 1) - 1000) * 0.25;
+		TIMER_SetChnCompare (MDR_TIMER1, TIMER_CHANNEL1, ch_value);
+
+
 	}
 }
 

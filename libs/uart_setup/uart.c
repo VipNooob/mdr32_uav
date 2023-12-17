@@ -29,7 +29,7 @@ void iBusUARTInit(void){
 	PortInit.PORT_Pin = PORT_Pin_7;
 	PORT_Init(MDR_PORTA, &PortInit);
 	
-	// Конфигурация 6 ножки порта PORTF как входа (UART1_RX)
+	// Конфигурация 6 ножки порта PORTA как входа (UART1_RX)
 	PortInit.PORT_OE = PORT_OE_IN;
 	PortInit.PORT_Pin = PORT_Pin_6;
 	PORT_Init(MDR_PORTA, &PortInit);

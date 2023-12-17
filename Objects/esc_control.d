@@ -11,6 +11,7 @@
   RTE\Device\MDR32F9Q2I\system_MDR32F9Q2I.h \
   C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_rst_clk.h \
   C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_timer.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
   libs\clock_setup\clock.h \
   C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_eeprom.h \
   C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_utils.h

@@ -16,4 +16,5 @@
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h libs\ibus\ibus.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   libs\simonk_esc\esc_control.h \
-  C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_timer.h
+  C:\Users\voron\AppData\Local\Arm\Packs\Milandr\MDR32FxQI\1.1\Libraries\SPL\MDR32FxQI\inc\MDR32FxQI_timer.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h
